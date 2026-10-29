@@ -14,7 +14,7 @@ pipeline {
       agent any
 
       steps {
-        sayHello 'Awesome Student!'
+        echo 'Awesome Student!'
       }
     }
     stage('Unit Tests') {
